@@ -23,3 +23,26 @@ body, html{
     margin-right: 1rem;
     line-height: 2;
 }
+
+/* Home */
+
+.vitrine{
+    min-height: 100%;
+    background: var(--primary);
+}
+
+.typewriter {
+    font-size: 2em;
+  }
+  
+  .typewriter::after {
+    content: '|';
+    transition: ease-in-out 0.3s;
+    opacity: 1;
+    animation: cursor 1s infinite;
+  }
+  
+  @keyframes cursor { 
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }

@@ -1,3 +1,5 @@
+/* Home - Vitrine Animation */
+
 function typewriter(element) {
   
     let letters = element.innerHTML.split('');

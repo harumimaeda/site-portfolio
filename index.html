@@ -12,9 +12,10 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <title>harumi maeda</title>
 </head>
@@ -22,8 +23,8 @@
 <body>
     <!-- Header -->
     <div id="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+        <div class="container-fluid">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-between navigation">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">harumimaeda</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,10 +54,6 @@
                                 <a class="nav-link" href="/contact-me">contact me</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">search</button>
-                        </form>
                     </div>
                 </div>
             </nav>
@@ -65,15 +62,13 @@
     <!-- //Header -->
 
     <!-- Vitrine -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="vitrine">
-                    <h1 class="typewriter">Olá, eu sou a Harumi Maeda.</h1>
-                </div>
+        <div class="p-5 my-0 mb-5 vitrine">
+            <div>
+            <h1 class="typewriter">Oi, eu sou a Harumi Maeda!</h1>
+            <h2>Designer & front-end dev</h2>
+            <a class="btn btn-primary mt-3" href="/about-me" role="button">saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
-    </div>
 
     <!-- //Vitrine -->
 
@@ -82,40 +77,33 @@
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title" id="highlight">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    <img src="assets/home/designer.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay card-body p-5 align-middle bg-light">
+                        <h5 class="card-title align-middle" id="highlight">designer</h5>
+                        <p class="card-text align-middle">Some quick example text to build on the card title and make up
+                            the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn">Go somewhere</a>
+                        <a href="#" class="btn align-middle">Go somewhere</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <img src="assets/home/front-end.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay card-body p-5 align-middle">
+                        <h5 class="card-title">front-end dev</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-secondary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <!-- //Works-->
+
+    <div class="footer">
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/animations.js"></script>

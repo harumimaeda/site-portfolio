@@ -2,6 +2,12 @@ body, html{
     font-family: 'Lato', sans-serif;
 }
 
+::selection {
+    background: #E399B8;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
 #header{
     width: 100%;
     transition: background ease-out 0.2s;
@@ -27,22 +33,25 @@ body, html{
 /* Home */
 
 .vitrine{
-    min-height: 100%;
     background: var(--primary);
+    min-height: 100%;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .typewriter {
     font-size: 2em;
   }
   
-  .typewriter::after {
+.typewriter::after {
     content: '|';
     transition: ease-in-out 0.3s;
     opacity: 1;
     animation: cursor 1s infinite;
-  }
+}
   
-  @keyframes cursor { 
+@keyframes cursor { 
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
-  }
+}

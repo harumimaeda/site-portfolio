@@ -4,5 +4,4 @@ Teoricamente eu comecei o projeto em (...), mas comecei a registrar só a partir
 Pra melhorar o processo, acho que deveria estipular algumas etapas, no melhor estilo kan-ban possível. Vou ver se consigo usar a parte do github de Projects pra me organizar melhor.
 
 **2021-07-19**
-Ainda é difícil mexer com o bootstrap. Fiz um wireframe de baixa res só pra conseguir me basear no layout, mas ainda não estou conseguindo mexer direito com o bootstrap. Será que eu devia largar e voltar pro uikit?
-Criei uma página chamada bootstrap-tests.html só pra testar os comandos, acho que vai ser mais útil do que ficar colando e apagando as coisas.
+Ainda é difícil mexer com o bootstrap. Fiz um wireframe de baixa res só pra conseguir me basear no layout, mas ainda não estou conseguindo mexer direito com o bootstrap. Criei uma página chamada cheatsheet.html só pra testar os comandos, acho que vai ser mais útil do que ficar colando e apagando as coisas. Será que eu devia largar e voltar pro uikit? :(
